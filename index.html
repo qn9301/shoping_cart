@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="./js/jquery-2.2.3.js"></script>
+	<script src="./js/scroll.js"></script>
+	<script src="./js/config.js"></script>
+	<script src="./js/data.js"></script>
+	<script src="./js/function.js"></script>
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<link rel="stylesheet" href="iconfont%20(1)/iconfont.css">
+	<link rel="stylesheet" href="./css/project.css">
+	<link rel="stylesheet" href="./css/load.css">
+</head>
+<body>
+	<img class="logo" src="" alt="">
+	<div class="load-mask">
+		<div class="load-container">
+			<div class="title color-white t-center">Loading...</div>
+			<!--<div class="load">-->
+				<!--<div class="load-box"></div>-->
+			<!--</div>-->
+			<img src="./img/bg.gif" style="width:100%" alt="">
+			<div class="content color-gray t-center">Power By Mr.Zheng</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="section">
+			<div class="huojia">
+				<ul class="rows">
+                    <!--<li class="goods" isscale="0"><div><img ondragstart="return false" src="./img/4.png"></div></li>-->
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="mask"></div>
+	<!--右侧商品添加表-->
+	<div class="costBox bg-black">
+		<div class="clearfix">
+			<div class="close iconfont bg-grey">&#xe680;</div>
+		</div>
+		<div class="goodInfor clearfix">
+			<div class="goodImg fl">
+				<img src="img/4.png" class="clips">
+			</div>
+			<div class="goodIntro fl">
+				Smiths Original-170g
+			</div>
+		</div>
+		<div class="addIn clearfix">
+			<div class="minus bg-grey iconfont fl">&#xe61f;</div>
+			<div class="num c-white fl">1</div>
+			<div class="plus bg-grey iconfont fl">&#xe628;</div>
+			<div class="price c-white fr">$<span class="goods-price">3.20</span></div>
+		</div>
+		<div class="addBasket addtobasket bg-grey text-center clearfix">
+			Add to Basket
+			<span class="iconfont plus-font">&#xe628;</span>
+		</div>
+		<div class="addBasket back bg-grey text-center clearfix">
+			Back
+			<span class="iconfont close-font">&#xe680;</span>
+		</div>
+		<div class="goods-show clearfix">
+			<div class="goodsShow-left fl">
+				<img src="img/4.png" class="w100">
+				<div class="front text-center">FRONT</div>
+			</div>
+			<div class="goodsShow-right fl">
+				<img src="img/4.png" class="w100">
+				<div class="front text-center">BACK</div>
+			</div>
+		</div>
+		<div class="viewport bg-black clearfix">
+			<div class="carBasket fl c-white f14"><span class="iconfont shop-car">&#xe856;</span> Basket</div>
+			<div class="costCount fl c-white f14"><span class="itemCount">0</span> items</div>
+			<div class="costDiff fl c-white f14">Total Price</div>
+			<div class="costCount fl c-white f14">$<span class="priceCount">0.00</span> </div>
+			<div class="btn-view bg-grey text-center fl bit-margin">
+				View basket
+			</div>
+			<div class="btn-check btn-blue text-center fl bit-margin btn-blue">
+				Checkout
+			</div>
+		</div>
+	</div>
+	<!--底部信息表-->
+	<div class="bottom-box bg-black clearfix">
+		<div class="bottom-left fl">
+			<div class="question bg-grey">?</div>
+			<div class="bottom-intro c-white text-center w100"></div>
+			<div class="divide-line"></div>
+		</div>
+		<div class="bottom-middlle fl clearfix">
+			<img src="img/message.png" class="message fl">
+			<!--<span class="msg fl">No description set.</span>-->
+		</div>
+		<div class="bottom-right fl">
+			<div class="viewport bg-black clearfix">
+				<div class="carBasket fl c-white f14"><span class="iconfont shop-car">&#xe856;</span> Basket</div>
+				<div class="costCount fl c-white f14"><span class="itemCount">0</span> items</div>
+				<div class="costDiff fl c-white f14">Total Price</div>
+				<div class="costCount fl c-white f14">$<span class="priceCount">0.00</span> </div>
+				<div class="btn-view bg-grey text-center fl bit-margin">
+					View basket
+				</div>
+				<div class="btn-check btn-blue text-center fl bit-margin">
+					Checkout
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--购物详细列表-->
+	<div class="detailList bg-black">
+		<div class="clearfix bg-black" style="position: relative;z-index:100;">
+			<div class="close iconfont bg-grey">&#xe680;</div>
+		</div>
+
+		<div class="detailList-next" style="width:100%;height:100%;overflow: hidden;">
+			<!--<div class="detailList-content">-->
+				<!--<div class="goodInfor clearfix little-margin">-->
+					<!--<div class="goodImg fl">-->
+						<!--<img src="img/4.png" class="clips">-->
+					<!--</div>-->
+					<!--<div class="goodIntro fl clearfix">-->
+						<!--Smiths Original-170g <span class="iconfont c-28 fr little-right">&#xe62f;</span>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="addIn clearfix">-->
+					<!--<div class="minus bg-grey iconfont fl">&#xe61f;</div>-->
+					<!--<div class="num c-white fl">1</div>-->
+					<!--<div class="plus bg-grey iconfont fl">&#xe628;</div>-->
+					<!--<div class="price c-white fr">$<span class="goods-price">3.20</span></div>-->
+				<!--</div>-->
+			<!--</div>-->
+		</div>
+
+
+		<div class="viewport bg-black clearfix">
+			<div class="carBasket fl c-white f14"><span class="iconfont shop-car">&#xe856;</span> Basket</div>
+			<div class="costCount fl c-white f14"><span class="itemCount">0</span> items</div>
+			<div class="costDiff fl c-white f14">Total Price</div>
+			<div class="costCount fl c-white f14">$<span class="priceCount">0.00</span> </div>
+			<div class="btn-view bg-grey text-center fl bit-margin">
+				View basket
+			</div>
+			<div class="btn-check btn-blue text-center fl bit-margin">
+				Checkout
+			</div>
+		</div>
+	</div>
+	<!--购物车详细列表-->
+	<div class="shopping-detail">
+		<div class="detail-infor detail-infor-first clearfix">
+			<div class="detail-infor-left-base fl">Product</div>
+			<div class="detail-infor-middle-base fl">Quantily</div>
+			<div class="detail-infor-right-base fl">Price</div>
+		</div>
+
+
+		<div class="shopping-detail-box" style="height:100%;overflow: hidden;">
+
+		</div>
+		<div class="detail-bottom bg-black clearfix">
+			<div class="detail-bottom-left fl">
+				<div class="iconfont c-white f20 lot-margin">&#xe856;</div>
+				<div class="total bit-margin">Total items<span class="itemCount">0</span></div>
+				<div class="divider"></div>
+			</div>
+			<div class="detail-bottom-middle fl">
+				<div class="subtotal c-white">Subtotal</div>
+				<div class="total-money c-white">$<span class="priceCount">0.00</span></div>
+				<div class="divider"></div>
+			</div>
+			<div class="detail-bottom-right fl">
+				<div class="subtotal c-white">Total Price</div>
+				<div class="total-money c-white">$<span class="priceCount">0.00</span></div>
+			</div>
+			<div class="continue bg-grey">Continue Shopping</div>
+			<div class="finish btn-blue">Finish Shopping</div>
+		</div>
+	</div>
+<script type="text/javascript">
+	$(".detailList-next").css({
+		"height":$(".detailList-next").height()-26-85+"px",
+	}).addScroll("black","gray","10",0.6);
+	$(".shopping-detail-box").css("height",$(".shopping-detail-box").height()-150-34 +"px");
+	$(".shopping-detail").css({"padding-right":"10px","display":"none"})
+</script>
+<script src="./js/common.js"></script>
+<script src="./js/controller.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var img_num = $(".goods img").length;
+		$(".goods img").load(function(){
+			if(!--img_num){
+				var len = $(".goods").length
+				for(var i=len-1;i>=0;i--){
+					var _this = $(".goods").eq(i);
+					var img = _this.find("img");
+					_this.css("width",img.width()/img.height()*_this.height()+"px")
+				}
+				for(var i=len-1;i>=0;i--){
+					var _this = $(".goods").eq(i);
+					// console.log(_this.attr('isdisabled'));
+					if(_this.attr('isdisabled')=="true"){
+						_this.css({"opacity":0,"display":"none"});
+						continue;
+					}
+					var g_o_l = _this[0].offsetLeft;
+					var g_o_t = _this[0].offsetTop;
+					_this.attr({"left":g_o_l+"px","top":g_o_t+"px","width":_this.width()+"px","height":_this.height()+"px"})
+					_this.css({
+						position:"absolute",
+						top:g_o_t+"px",
+						left:g_o_l+"px"
+					})
+					var str = "<span style='color:black;background:white;border:1px solid gray;font-size:"+config['biaoqian_font_size']+";position:absolute;left:"+((g_o_l+_this.innerWidth()/2)+parseInt(config["biaoqian_left"]))+"px;top:"+((g_o_t+_this.height())+parseInt(config["biaoqian_top"]))+"px;transform:translateX(-50%) scale("+config['biaoqian_scale']+","+config['biaoqian_scale']+");-webkit-transform:translate(-50%,-50%) scale("+config['biaoqian_scale']+","+config['biaoqian_scale']+");-moz-transform:translate(-50%,-50%) scale("+config['biaoqian_scale']+","+config['biaoqian_scale']+");-ms-transform:translate(-50%,-50%) scale("+config['biaoqian_scale']+","+config['biaoqian_scale']+")'>$"+formatPrice(_this.attr("goods-price"),config['price_format_num'])+"</span>";
+					$(".huojia").append(str);
+				}
+				$(".load-mask").hide();
+				$(".section")[0].style.webkitTransition = "transform 2s";
+				$(".section")[0].style.mozTransition = "transform 2s";
+				$(".section")[0].style.transition = "transform 2s";
+				$(".section")[0].style.webkitTransform = "scale("+config['chushi_scale']+","+config['chushi_scale']+")";
+				$(".section")[0].style.mozTransform = "scale("+config['chushi_scale']+","+config['chushi_scale']+")";
+				$(".section")[0].style.transform = "scale("+config['chushi_scale']+","+config['chushi_scale']+")";
+				setTimeout(function(){
+					$(".section")[0].style.webkitTransition = "transform 0.2s";
+					$(".section")[0].style.mozTransition = "transform 0.2s";
+					$(".section")[0].style.transition = "transform 0.2s";
+				},2000)
+			}
+		})
+		// 兼容ie写法
+		$(".goods").each(function(){
+			$(this).find("img").attr("src",$(this).attr("goods-image"));
+		})
+	})
+</script>
+</body>
+
+</html>
